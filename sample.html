@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+<!--This is the header of my website-->
+<!--This information below is for testing a form, but probably won't be used-->
+<?php $Fname = $_POST["Fname"];
+$Lname = $_POST["Lname"];
+$gender = $_POST["gender"];
+$food = $_POST["food"];
+$quote = $_POST["quote"];
+$education = $_POST["education"];
+$TofD = $_POST["TofD"];
+if (!isset($_POST['submit'])) { // if page is not submitted to itself echo the form
+?>
+
+<!--This is the CSS stylesheet and tells the website to use my CSS layout-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+
+<!--This is the title of my website-->
+<title>Gavin Greco's Website</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+
+<!--This is the little logo you see on the website-->
+<link rel="shortcut icon" href="Pics/16x16logo.ico" />
+
+</head>
+
+<!--This is the body of my website-->
+<body>
+
+<!--This is the Banner for my website-->
+<div id="banner"></div>
+
+<!--These are the links to other pages on my site-->
+<ul class="listlink2">
+<li class="listlink2"><a href="index.html" class="listlink2">Home</a></li>
+<li class="listlink2"><a href="mailto:gavingreco@live.com" title="gavingreco@live.com" class="listlink2">Email</a></li>
+<li class="listlink2"><a href="contact.html" class="listlink2">Contact</a></li>
+<li class="listlink2"><a href="sample.html" class="listlink2">Sample</a></li>
+<li class="listlink2"><a href="pictures.html" class="listlink2">Pictures</a></li>
+<li class="listlink2"><a href="about.html" class="listlink2">About</a></li>
+</ul>
+
+<div class="body">
+<h1>Sample Code</h1>
+<br>
+<br>
+<h1>This is some H1 text...</h1>
+<br>
+<h2>This is some H2 text...</h2>
+<br>
+<h3>This is some H3 text...</h3>
+<br>
+<h4 style="color:red;">This is some H4 text...</h4>
+<br>
+<p style="color:white;">This is a paragraph block. </p>
+<br>
+<h2 align="center"> This is a sample List </h2>
+ <ul class="listone">
+	 <li class="listone">Sample</li>
+	 <li class="listone">Sample</li>
+	 <li class="listone">Sample</li>
+	 <li class="listone">Sample</li>
+ 	 <li class="listone">Sample</li>
+	 <li class="listone">Sample</li>
+</ul> 
+<br>
+</div>
+<br>
+<p class="bottom">Copyright &copy; 2015 by Gavin Greco. All Rights Reserved.</p>
+<br>
+</body></html>
